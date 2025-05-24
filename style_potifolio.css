@@ -1,0 +1,51 @@
+body{
+    background-color:#b2dcee;
+    padding: 30px; 
+    line-height:1.6;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+h2,h3{
+    color: #0e81bb; 
+    margin-top:30px;    
+}
+img{
+    width:100%; 
+    max-width: 600px; 
+    height:auto;
+    border-radius: 12px; 
+    margin: 10px 0px; 
+
+}
+
+
+
+ section{
+    background-color: #ffffff;
+    padding: 20px; /*espaço interno*/
+    border-radius: 0px; /*bordas arredondadas*/
+ }
+
+h1{
+    color:#0e81bb;
+}
+.meuportifolio{
+    display:flex;/*Alinhar os itens horizontalmente*/
+    justify-content: space-around;/*distribuir o espaço de forrma linear (igual) entre eles*/
+    background-color:rgb(7, 170, 230); /*cor de fundo do menu com degrade*/
+    padding: -80px;/*espaço interno entre os itens do menu*/
+  /*fixa o menu na tela na sua posição original, no caso horizontal*/
+    width:100%;
+    z-index: 1000;/* garante sobreposição do menu em relação aos outros itens da tela*/
+} 
+.meuportifolio a{
+    text-decoration: none;
+    color: rgb(32, 22, 85);
+    font-size:15px ; /*ajusta o tamanho do texto (fonte)*/
+    transition: transform 0.5s ease;
+}
+.meuportifolio a:hover{
+    transform: scale(1.1) ; /* aumenta o tamanho do elemento no nosso caso  o link em 10%*/
+}
+
+ 
